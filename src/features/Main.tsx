@@ -12,21 +12,6 @@ const PagesQuery = `
   }
 `;
 
-// const IntrospectionQuery = `
-//   query {
-//     __type(name: "Page) {
-//       name
-//       fields {
-//         name
-//         type {
-//           name
-//           kind
-//         }
-//       }
-//     }
-//   }
-// `;
-
 export const Main = () => {
   const [start, setStart] = useState<number | undefined>(0);
   const [limit, setLimit] = useState<number | undefined>(3);
